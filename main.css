@@ -59,7 +59,7 @@
         font-weight: 800;
         max-width: 900px;
         margin: 0 auto;
-        padding-top: 100px;
+        padding-top: 180px;
         text-align: center;
     }
     
@@ -210,6 +210,7 @@
     
     .right-box {
         max-width: 300px;
+        padding-left: 30px;
     }
     
     .box-1 {
@@ -277,6 +278,10 @@
         padding-bottom: 10px;
     }
     
+    .slide-text {
+        z-index: -1;
+    }
+    
     .slide-p1 {
         font-size: 14px;
         color: #878787;
@@ -285,45 +290,50 @@
     
     .my-slick {
         padding-top: 50px;
-        overflow-x: hidden;
+    }
+    
+    .slick-center {
+        transform-origin: bottom;
+        transform: scale(1.2);
+        transition: transform .5s ease-out;
     }
     
     .slider-img1 {
         background-image: url(//cdn2.hubspot.net/hubfs/48827/BRiX-Assets/carousel-mountain.jpg);
         background-position: center;
         background-size: cover;
-        max-width: 425px;
-        height: 425px
+        width: 100%;
+        height: 325px;
     }
     
     .slider-img2 {
         background-image: url(//cdn2.hubspot.net/hubfs/48827/BRiX-Assets/carosel_image_4.jpg);
         background-position: center;
         background-size: cover;
-        max-width: 425px;
-        height: 425px
+        width: 100%;
+        height: 325px;
     }
     
     .slider-img3 {
         background-image: url(//cdn2.hubspot.net/hubfs/48827/BRiX-Assets/carousel-boat.jpg);
         background-position: center;
         background-size: cover;
-        max-width: 425px;
-        height: 425px
+        width: 100%;
+        height: 325px;
     }
     
     .slider-img4 {
         background-image: url(//cdn2.hubspot.net/hubfs/48827/BRiX-Assets/E38D84C0-9B22-4764-9633-559428BFF202.jpg);
         background-position: center;
         background-size: cover;
-        max-width: 425px;
-        height: 425px
+        width: 100%;
+        height: 325px;
     }
     
     .slider-text {
         background: #3850A9;
-        max-width: 425px;
-        height: 100px;
+        width: 100%;
+        height: 100px
     }
     
     .s-text {
@@ -455,6 +465,7 @@
         }
         .right-box {
             max-width: 100%;
+            padding-left: 0;
         }
         .box-content {
             display: grid;
@@ -482,7 +493,7 @@
         h3,
         h4,
         h5 {
-            font-size: 16px;
+            font-size: 19px;
         }
         .start-p1 {
             font-size: 30px;
