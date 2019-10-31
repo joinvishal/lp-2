@@ -322,7 +322,7 @@ button.slick-prev {
     width: 40px;
     height: 38px;
     top: 50px;
-    left: 20px;
+    left: 10px;
     display: block;
     cursor: pointer;
     border: none;
@@ -336,7 +336,7 @@ button.slick-next {
     width: 40px;
     height: 38px;
     top: 50px;
-    right: 20px;
+    right: 10px;
     display: block;
     cursor: pointer;
     border: none;
