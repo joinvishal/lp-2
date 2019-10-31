@@ -2,12 +2,14 @@ $(document).ready(function() {
     $('.h-content').before('<div class="mobile-trigger"><i></i></div>');
     $('.mobile-trigger').click(function() {
         $('.mobile-trigger i').toggleClass('change');
-        $('.nav-bar').toggleClass('change');
+        $('.nav-menu').toggle()
         return false;
     });
     $('.my-slick').slick({
         centerMode: true,
-        arrows: false,
+        arrows: true,
+        nextArrow: '<button type="button" class="slick-next"></button>',
+        prevArrow: '<button type="button" class="slick-prev"></button>',
         centerPadding: '0px',
         slidesToShow: 3,
         responsive: [{
@@ -30,3 +32,4 @@ $(document).ready(function() {
 
     });
 });
+x
